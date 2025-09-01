@@ -31,7 +31,7 @@ The benchmark includes examples from seven major C/C++ projects:
 | **wrk** | Benchmarking | ~601 | HTTP benchmarking tool |
 | **ffmpeg** | Multimedia | ~1,257 | Complete multimedia framework |
 | **gcc** | Compiler | ~6,200 | GNU Compiler Collection |
-| **Total** | **All Domains** | **~8,940K** | **7 major open-source projects** |
+| **Total** | **All Domains** | **~8,940** | **7 major open-source projects** |
 
 ### Function Pointer Categories
 
