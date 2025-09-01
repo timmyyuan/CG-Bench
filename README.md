@@ -1,6 +1,9 @@
 # CG-Bench: A Call Graph Construction Benchmark for Language Models
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](CG_Bench_Can_Language_Models_Assist_Call_Graph_Construction_in_the_Real_World.pdf)
+
+> **📄 Paper**: [CG-Bench: Can Language Models Assist Call Graph Construction in the Real World?](CG_Bench_Can_Language_Models_Assist_Call_Graph_Construction_in_the_Real_World.pdf) - Published at LMPL@SPLASH2025
 
 CG-Bench is a comprehensive benchmark dataset designed to evaluate the capabilities of Large Language Models (LLMs) in assisting with call graph construction in real-world C/C++ codebases. The benchmark focuses specifically on challenging indirect function calls through function pointers, which are notoriously difficult for traditional static analysis tools to resolve.
 
@@ -117,7 +120,7 @@ The generated JSON follows this structure:
 
 - **Total Examples**: 70
 - **Project Categories**: 7 major open-source projects
-- **Function Pointer Patterns**: 10 distinct categories
+- **Function Pointer Patterns**: 11 distinct categories
 - **Code Contexts**: Multiple code snippets per example showing usage patterns
 - **Real-world Complexity**: Examples from production codebases
 
