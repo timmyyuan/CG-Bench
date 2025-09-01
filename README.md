@@ -15,7 +15,7 @@ This benchmark provides:
 - **Real-world complexity**: Examples extracted from popular open-source projects
 - **Diverse patterns**: Multiple categories of function pointer usage patterns
 - **Structured format**: Consistent annotation format for evaluation
-- **Comprehensive coverage**: 46 examples across 7 major open-source projects
+- **Comprehensive coverage**: 104 examples across 7 major open-source projects
 
 ## 🗂️ Dataset Structure
 
@@ -35,19 +35,19 @@ The benchmark includes examples from seven major C/C++ projects:
 
 ### Function Pointer Categories
 
-The benchmark categorizes function pointer usage patterns into 10 distinct types:
+The benchmark categorizes function pointer usage patterns into 11 distinct types:
 
-1. **`fnptr-only`** (6 examples): Basic function pointer calls without complex patterns
-2. **`fnptr-callback`** (7 examples): Function pointers used as callbacks
-3. **`fnptr-struct`** (5 examples): Function pointers stored in structures
-4. **`fnptr-global-array`** (3 examples): Function pointers in global arrays
-5. **`fnptr-global-struct`** (5 examples): Function pointers in global structures
-6. **`fnptr-global-struct-array`** (5 examples): Function pointers in arrays within global structures
-7. **`fnptr-library`** (5 examples): Function pointers in library interfaces
-8. **`fnptr-cast`** (4 examples): Function pointers with type casting
-9. **`fnptr-dynamic-call`** (4 examples): Dynamically resolved function calls
-10. **`fnptr-virtual`** (1 example): Virtual function-like patterns in C
-11. **`fnptr-varargs`** (1 example): Function pointers with variable arguments
+1. **`fnptr-callback`** (15 examples): Function pointers used as callbacks
+2. **`fnptr-cast`** (7 examples): Function pointers with type casting
+3. **`fnptr-dynamic-call`** (5 examples): Dynamically resolved function calls
+4. **`fnptr-global-array`** (6 examples): Function pointers in global arrays
+5. **`fnptr-global-struct-array`** (12 examples): Function pointers in arrays within global structures
+6. **`fnptr-global-struct`** (11 examples): Function pointers in global structures
+7. **`fnptr-library`** (20 examples): Function pointers in library interfaces
+8. **`fnptr-only`** (12 examples): Basic function pointer calls without complex patterns
+9. **`fnptr-struct`** (14 examples): Function pointers stored in structures
+10. **`fnptr-varargs`** (1 example): Function pointers with variable arguments
+11. **`fnptr-virtual`** (1 example): Virtual function-like patterns in C
 
 ## 📁 Repository Contents
 
@@ -119,7 +119,7 @@ The generated JSON follows this structure:
 
 ## 📊 Benchmark Statistics
 
-- **Total Examples**: 70
+- **Total Examples**: 104
 - **Project Categories**: 7 major open-source projects
 - **Function Pointer Patterns**: 11 distinct categories
 - **Code Contexts**: Multiple code snippets per example showing usage patterns
