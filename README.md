@@ -22,15 +22,16 @@ This benchmark provides:
 ### Projects Included
 The benchmark includes examples from seven major C/C++ projects:
 
-| Project | Domain | Lines of Code | Description |
+| Project | Domain | Lines of Code(KLoC) | Description |
 |---------|--------|---------------|-------------|
-| **curl-8.5.0** | Networking | ~293K | Command line tool and library for transferring data |
-| **openssh-9.6p1** | Security | ~161K | Secure Shell (SSH) protocol implementation |
-| **redis-stable** | Database | - | In-memory data structure store |
-| **gcc-13.2.0** | Compiler | - | GNU Compiler Collection |
-| **ffmpeg** | Multimedia | - | Complete multimedia framework |
-| **wrk-4.2.0** | Benchmarking | - | HTTP benchmarking tool |
-| **zfs** | File System | - | ZFS file system implementation |
+| **openssh** | Security | ~120 | Secure Shell (SSH) protocol implementation |
+| **curl** | Networking | ~182 | Command line tool and library for transferring data |
+| **redis** | Database | ~200 | In-memory data structure store |
+| **zfs** | File System | ~380 | ZFS file system implementation |
+| **wrk** | Benchmarking | ~601 | HTTP benchmarking tool |
+| **ffmpeg** | Multimedia | ~1,257 | Complete multimedia framework |
+| **gcc** | Compiler | ~6,200 | GNU Compiler Collection |
+| **Total** | **All Domains** | **~8,940K** | **7 major open-source projects** |
 
 ### Function Pointer Categories
 
@@ -52,7 +53,7 @@ The benchmark categorizes function pointer usage patterns into 10 distinct types
 
 ```
 CG-Bench/
-├── README.md                          # This file
+├── README.md                         # This file
 ├── LICENSE                           # MIT License
 ├── projects.md                       # Detailed project statistics
 ├── extract_from_markdowns.py         # Data extraction script
